@@ -22,7 +22,7 @@ def extract_column_csv(name_archive: str, column_index: int, data_type: str):
 
   return column
 
-# extract the column you informed before, it'll print until 600 columns side by side separated by commas. For my use case was very useful, if you need to print more, is very simple to make it.
+# extract the column you informed before, it'll print up to 600 columns side by side separated by commas. For my use case was very useful, if you need to print more, is very simple to make it.
 
 consult = extract_column_csv(name_archive='test.csv', column_index=1, data_type='int') # where I typed the word 'test' please inform the name and direction of your CSV file
 print(consult)
